@@ -23,6 +23,8 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      'react-hooks/react-compiler': 'error',
+      'react-hooks/rules-of-hooks': 'error',
     },
   },
 )
