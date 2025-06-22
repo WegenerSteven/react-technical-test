@@ -3,17 +3,17 @@
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo">
-                <h1>Job Portal</h1>
+            <div
+            style={{
+                backgroundImage: 'url(/public/images/bg-header-desktop.svg)',
+                backgroundSize: 'cover',
+                height: '100px',
+                fontSize: '24px',
+                padding: '10px',
+                color: 'white',
+                textAlign: 'center',
+            }}>
             </div>
-            <nav>
-                <ul className="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#jobs">Jobs</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
         </header>
     );
 }

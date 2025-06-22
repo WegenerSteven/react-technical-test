@@ -11,7 +11,7 @@ export default function JobCard({ job, onTagClick }: JobCardProps) {
 
   return (
     <div
-      className={`bg-white rounded-md shadow-md p-6 flex flex-col lg:flex-row lg:items-center lg:justify-between border-l-4 ${
+      className={`p-4 mx-auto max-w-4xl sm:flex grid items-center justify-between gap-4 bg-gray-50 rounded-md shadow border-l-4 border-cyan-400${
         job.featured ? "border-cyan-700" : "border-transparent"
       }`}
     >
